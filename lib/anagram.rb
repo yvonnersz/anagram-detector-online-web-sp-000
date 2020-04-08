@@ -10,7 +10,8 @@ class Anagram
   end
 
   def match(array)
+    comparion = []
     array.each do |anagrams|
       comparison << anagrams.split("").sort
-
+      if comparison 
 end
