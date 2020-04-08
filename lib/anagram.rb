@@ -10,7 +10,7 @@ class Anagram
   end
 
   def match(array)
-    comparion = []
+    comparison = []
     array.each do |anagrams|
       comparison << anagrams.split("").sort
       if comparison == @@sorted_word_letters
