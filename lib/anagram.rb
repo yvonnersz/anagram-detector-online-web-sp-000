@@ -10,14 +10,7 @@ class Anagram
   end
 
   def match(array)
-    comparison = []
-    array.each do |anagrams|
-      comparison << anagrams.split("").sort
-      if comparison == @@sorted_word_letters
-         anagrams
-       else
-         nil
-       end
-     end
+    array.detect {|anagrams| anagrams.split("").sort == @@sorted_word_letters}
+
    end
 end
