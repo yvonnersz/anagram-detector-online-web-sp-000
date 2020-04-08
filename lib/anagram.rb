@@ -8,14 +8,7 @@ class Anagram
   end
 
   def match(array)
-    array = []
-    array.detect do |anagrams|
-      if anagrams.split("").sort! == word.split("").sort!
-        array << anagrams
-        array
-      else
-        nil
-      end
+    array.detect {|anagrams| anagrams.split("").sort! == word.split("").sort!}
+
    end
- end
 end
