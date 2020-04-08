@@ -12,5 +12,5 @@ class Anagram
   def match(array)
     array.each do |anagrams|
       comparison << anagrams.split("").sort
-        
+
 end
