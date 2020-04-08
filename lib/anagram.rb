@@ -16,6 +16,5 @@ class Anagram
       else
         nil
       end
-
    end
 end
