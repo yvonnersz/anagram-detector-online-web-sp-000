@@ -13,5 +13,6 @@ class Anagram
     comparion = []
     array.each do |anagrams|
       comparison << anagrams.split("").sort
-      if comparison
+      if comparison == @@sorted_word_letters
+        return anagrams
 end
