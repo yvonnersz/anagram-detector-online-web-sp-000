@@ -14,5 +14,8 @@ class Anagram
     array.each do |anagrams|
       comparison << anagrams.split("").sort
       if comparison == @@sorted_word_letters
-        return anagrams
+         anagrams
+       end
+     end
+   end
 end
