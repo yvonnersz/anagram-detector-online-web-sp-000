@@ -10,7 +10,7 @@ class Anagram
   end
 
   def match(array)
-    array.detect {|anagrams| anagrams.split("").sort == @@sorted_word_letters}
+    array.detect {|anagrams| anagrams.split("").sort! == @@sorted_word_letters}
 
    end
 end
