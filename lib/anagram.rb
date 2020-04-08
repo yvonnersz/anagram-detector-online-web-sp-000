@@ -14,5 +14,5 @@ class Anagram
   def match(array)
     array.each do |anagrams|
       anagrams.each do |letters|
-        sorted_letters = letters.sort 
+        sorted_letters = letters.sort
 end
