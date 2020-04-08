@@ -9,12 +9,12 @@ class Anagram
     @word.each do |letters|
       letters.sort
     end
-    
+
   end
 
   def match(argument)
     argument.each do |letters|
       alphabetical_sort = letters.sort
-      
+
   end
 end
