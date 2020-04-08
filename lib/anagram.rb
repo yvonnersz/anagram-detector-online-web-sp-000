@@ -15,6 +15,8 @@ class Anagram
       comparison << anagrams.split("").sort
       if comparison == @@sorted_word_letters
          anagrams
+       else
+         nil
        end
      end
    end
