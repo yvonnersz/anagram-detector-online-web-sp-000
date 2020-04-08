@@ -16,6 +16,7 @@ class Anagram
   def match(argument)
     argument.each do |letters|
       alphabetical_sort = letters.sort
-
+      if @@word == alphabetical_sort
+        argument
   end
 end
